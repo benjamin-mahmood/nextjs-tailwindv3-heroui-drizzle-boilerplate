@@ -16,10 +16,6 @@
     "prettier-plugin-tailwindcss",
     "prettier-plugin-sql"
   ],
-  "tailwindStylesheet": "./src/app/globals.css",
-  "tailwindConfig": "./tailwind.config.js",
-  "tailwindFunctions": ["clsx", "tw"],
-  "tailwindPreserveWhitespace": true,
 
   "importOrder": [
     "^(react/(.*)$)|^(react$)",
