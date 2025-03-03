@@ -1,0 +1,38 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSameLine": false,
+  "singleAttributePerLine": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "trailingComma": "es5",
+  "arrowParens": "always",
+
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-sql"
+  ],
+  "tailwindStylesheet": "./src/app/globals.css",
+  "tailwindConfig": "./tailwind.config.js",
+  "tailwindFunctions": ["clsx", "tw"],
+  "tailwindPreserveWhitespace": true,
+
+  "importOrder": [
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/types/(.*)$",
+    "^@/config/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/components/(.*)$",
+    "^@/styles/(.*)$",
+    "",
+    "^[./]"
+  ]
+}
